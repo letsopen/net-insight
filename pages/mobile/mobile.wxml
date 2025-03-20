@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="info-card">
+    <view class="title">网络状态</view>
+    <view class="info-item">
+      <text class="label">网络类型：</text>
+      <text class="value">{{networkType}}</text>
+    </view>
+    <view class="info-item">
+      <text class="label">连接状态：</text>
+      <text class="value {{isConnected ? 'connected' : 'disconnected'}}">
+        {{isConnected ? '已连接' : '未连接'}}
+      </text>
+    </view>
+  </view>
+
+  <view class="info-card">
+    <view class="title">注意事项</view>
+    <view class="notice">
+      由于系统限制，详细的移动网络信息（如基站信息）暂时无法获取。目前仅能显示基本的网络连接状态。
+    </view>
+  </view>
+</view>

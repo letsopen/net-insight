@@ -1,0 +1,24 @@
+<view class="container">
+  <view class="info-card">
+    <view class="info-item">
+      <text class="label">纬度：</text>
+      <text class="value">{{latitude}}</text>
+    </view>
+    <view class="info-item">
+      <text class="label">经度：</text>
+      <text class="value">{{longitude}}</text>
+    </view>
+    <view class="info-item">
+      <text class="label">精确度：</text>
+      <text class="value">{{accuracy}} 米</text>
+    </view>
+    <view class="info-item">
+      <text class="label">海拔：</text>
+      <text class="value">{{altitude}} 米</text>
+    </view>
+    <view class="info-item">
+      <text class="label">速度：</text>
+      <text class="value">{{speed}} m/s</text>
+    </view>
+  </view>
+</view>

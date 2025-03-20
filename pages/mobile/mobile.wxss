@@ -1,0 +1,32 @@
+/* pages/mobile/mobile.wxss */
+
+.title {
+  font-size: 32rpx;
+  font-weight: bold;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #eee;
+  margin-bottom: 20rpx;
+}
+
+.info-card {
+  margin-bottom: 20rpx;
+  background: #fff;
+  border-radius: 10rpx;
+  padding: 20rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0,0,0,0.1);
+}
+
+.connected {
+  color: #07c160;
+}
+
+.disconnected {
+  color: #ff4d4f;
+}
+
+.notice {
+  color: #666;
+  font-size: 28rpx;
+  line-height: 1.6;
+  padding: 20rpx 0;
+}

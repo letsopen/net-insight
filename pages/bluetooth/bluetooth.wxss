@@ -1,0 +1,42 @@
+.container {
+  padding: 20rpx;
+}
+
+.control-panel {
+  margin-bottom: 30rpx;
+}
+
+.scan-btn {
+  width: 100%;
+}
+
+.device-count {
+  font-size: 28rpx;
+  color: #666;
+  margin-bottom: 20rpx;
+}
+
+.device-item {
+  background: #fff;
+  border-radius: 10rpx;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0,0,0,0.1);
+}
+
+.device-name {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+
+.device-id {
+  font-size: 24rpx;
+  color: #666;
+  margin-bottom: 6rpx;
+}
+
+.device-rssi {
+  font-size: 24rpx;
+  color: #666;
+}

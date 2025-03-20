@@ -1,0 +1,46 @@
+{
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于显示当前位置"
+    },
+    "scope.bluetooth": {
+      "desc": "您的蓝牙功能将用于扫描周边设备"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "pages": [
+    "pages/bluetooth/bluetooth",
+    "pages/wifi/wifi",
+    "pages/gps/gps"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "网络洞察",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/bluetooth/bluetooth",
+        "text": "蓝牙",
+        "iconPath": "assets/testicon.png",
+        "selectedIconPath": "assets/testicon.png"
+      },
+      {
+        "pagePath": "pages/wifi/wifi",
+        "text": "WiFi",
+        "iconPath": "assets/testicon.png",
+        "selectedIconPath": "assets/testicon.png"
+      },
+      {
+        "pagePath": "pages/gps/gps",
+        "text": "定位",
+        "iconPath": "assets/testicon.png",
+        "selectedIconPath": "assets/testicon.png"
+      }
+    ]
+  }
+}

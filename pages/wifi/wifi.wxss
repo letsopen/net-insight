@@ -1,0 +1,56 @@
+.device-section {
+  margin-top: 30rpx;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 0;
+}
+
+.section-title {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+
+.refresh-btn {
+  margin: 0;
+}
+
+.device-count {
+  font-size: 28rpx;
+  color: #666;
+  margin: 20rpx 0;
+}
+
+.device-item {
+  background: #fff;
+  border-radius: 10rpx;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  box-shadow: 0 2rpx 10rpx rgba(0,0,0,0.1);
+}
+
+.device-name {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+
+.device-type {
+  font-size: 24rpx;
+  color: #666;
+  margin-bottom: 6rpx;
+}
+
+.device-address {
+  font-size: 24rpx;
+  color: #666;
+}
+
+.no-device {
+  text-align: center;
+  color: #999;
+  padding: 40rpx 0;
+}

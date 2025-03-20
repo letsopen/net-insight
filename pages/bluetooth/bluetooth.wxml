@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="control-panel">
+    <button class="scan-btn" bindtap="{{scanning ? 'stopBluetoothDevicesDiscovery' : 'startBluetoothDevicesDiscovery'}}" type="primary">
+      {{scanning ? '停止扫描' : '开始扫描'}}
+    </button>
+  </view>
+
+  <view class="device-list">
+    <view class="device-count">发现设备：{{devices.length}} 个</view>
+    <view class="device-item" wx:for="{{devices}}" wx:key="deviceId">
+      <view class="device-info">
+        <view class="device-name">{{item.name || item.localName || '未知设备'}}</view>
+        <view class="device-id">ID: {{item.deviceId}}</view>
+        <view class="device-rssi">信号强度: {{item.RSSI}} dBm</view>
+      </view>
+    </view>
+  </view>
+</view>
